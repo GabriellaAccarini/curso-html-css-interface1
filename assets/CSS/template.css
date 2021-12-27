@@ -1,0 +1,749 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+html{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    display: flex;
+    justify-content: center;
+    height: 120px;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    width: 990px;
+    
+}
+img{
+    width: 200px;
+}
+.logo{
+    
+    display: flex;
+    align-items: center;
+}
+.menu{
+    display: flex;
+    align-items: center;
+
+}
+
+nav ul,
+nav li{
+    display: flex;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+nav ul{
+    display:flex;
+}
+
+nav a{
+    display: flex;
+    padding: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #727273;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav .active a,
+nav a:hover {
+    background-color: #8fbc8f;
+    color: #ffffff;
+}
+
+#banner{
+    display: flex;
+    justify-content: center;
+    background-image: url("../Images/banner.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 670px;
+}
+.column{
+    flex-direction: column;
+}
+.bannerHeadline{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.bannerHeadline h1{
+    color: #ffffff;
+    font-size: 70px;
+    text-shadow: 0px 1px 1px #555555;   
+    margin: 0px;
+    padding: 0px;
+    max-width: 400px;
+}
+.bannerHeadline h2{
+    color: #ffffff;
+    font-size: 21px;
+    text-shadow: 0px 1px 1px #555555; 
+    margin: 0px;
+    padding: 0px;
+    max-width: 400px;  
+    margin-top: 30px;
+}
+
+.bannerOptions{
+    height: 130px;
+    display: flex;
+}
+.banner1,
+.banner2,
+.banner3{
+    flex: 1;
+    color: #ffffff;
+    text-shadow: 1px 1px 1px #555555;
+    padding: 5px;
+}
+
+.banner1{
+    background-color: #dcdcdc;
+}
+.banner2{
+    background-color: #d3d3d3;
+}
+.banner3{
+    background-color: #c0c0c0;
+}
+.bannerTittle{
+    font-size: 20px;
+     
+}
+.bannerDescription{
+    font-size: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.bannerOptions a{
+    display: inline-block;
+    border: 1px solid #ffffff;
+    padding: 2px;
+    color: #ffffff;
+    font-size: 15px;
+    text-decoration: none;
+    background-color: #ccc;
+}
+
+.bannerOptions a:hover{
+    background-color:#8fbc8f;
+}
+
+#geral{
+    display: flex;
+    justify-content: center;
+}
+
+#geral section{
+    flex: 2;
+    
+}
+
+#geral aside{
+    flex:1;
+    
+}
+.widgetTittle{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.widgetTittleText{
+    color: #8fbc8f;
+    font-size: 20px ;
+    font:bold;
+}
+.widgetTittleBar{
+    width: 50px;
+    height: 3px;
+    background-color:#8fbc8f;
+    margin-top: 10px;
+}
+.login{
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #000000
+    
+}
+
+.usuario, .senha{
+    margin-bottom: 15px;
+}
+
+.Categorias{
+    display: flex;
+    flex-flow: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    
+}
+
+.Categorias li{
+    list-style: none;
+    margin: 0px;
+    padding: 20px;
+    
+}
+
+.animais{
+    width: 100px;
+    height: 100px;
+}
+
+.animais:hover{
+    background-color:#8fbc8f;
+}
+.flex{
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: space-between;
+}
+
+article{
+    flex:1;
+    min-width: 300px;
+}
+
+article a{
+    text-decoration: none;
+}
+
+article .newsData{
+    display: flex;
+}
+
+article .newsAddData{
+    background-color: #c0c0c0;
+    color: #ffffff;
+    font-size: 12px;
+    padding: 10px;
+   
+}
+
+article .newsComments{
+    background-color: #696969;
+    color: #ffffff;
+    font-size: 12px;
+    padding: 10px;
+    margin-left: 2px;
+}
+
+article .newsThumbnail{
+    margin-top:30px;
+    
+}
+
+.newsThumbnail img{
+    min-width: 300px;
+}
+article .newsTitle{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: #000000;
+    font-size: 23px;
+}
+
+article .newsResume{
+    color:#5c5c5c;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 20px;  
+
+}
+
+footer{
+    background-color: #000000;
+    display: flex;
+    color: #ffffff;
+    justify-content: center;
+    flex-flow: wrap;
+}
+
+.footerTitle{
+    padding-top: 20px;
+}
+
+.footerBody{
+    display: flex;
+    padding-right: 0px;
+    font-size: 12px;
+}
+
+.footerItems{
+    display: flex;
+    flex-direction: column;
+    padding-right: 10px;
+}
+
+.footerBody ul li{
+    list-style: none;
+    padding-bottom: 20px;
+}
+
+.footerBody ul{
+    margin: 0px;
+    padding: 20px 0px 0px 0px;
+}
+
+address{
+    padding-top: 20px;
+}
+
+.linkTime{
+    padding-top: 10px;
+}
+
+.menuMobile{
+    display: none;
+    width: 40px;
+    height: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-right: 20px;
+}
+.mm_line{
+    height: 3px;
+    background-color: #8fbc8f;
+}
+@media(max-width:960px){
+    .bannerTittle{
+        font-size: 19px;
+    }
+    .bannerDescription{
+        font-size: 14px;
+    }
+    .banner1 a{
+        font-size: 14px;
+        padding:1px;
+    }
+    .banner2 a{
+        font-size: 14px;
+        padding:1px;
+    }
+    .banner3 a{
+        font-size: 14px;
+        padding:1px;
+    }
+    .newsThumbnail img{
+        min-width: 200px;
+    }
+    article .newsTitle{
+        margin-top: 15px;
+        margin-bottom: 15px;
+        color: #000000;
+        font-size: 20px;
+    }
+    
+    article .newsResume{
+        color:#5c5c5c;
+        font-size: 13px;
+        line-height: 19px;
+        margin-bottom: 15px;  
+    
+    }
+    .animais{
+        width: 80px;
+        height: 80px;
+    }
+}
+
+@media(max-width:850px){
+    .bannerTittle{
+        font-size: 16px;
+    }
+    .bannerDescription{
+        font-size: 12px;
+    }
+    .banner1 a{
+        font-size: 12px;
+        padding:1px;
+    }
+    .banner2 a{
+        font-size: 12px;
+        padding:1px;
+    }
+    .banner3 a{
+        font-size: 12px;
+        padding:1px;
+    }
+
+}
+
+@media(max-width:839px){
+    .animais{
+        width: 60px;
+        height: 60px;
+    }
+}
+
+@media(max-width:719px){
+    .animais{
+        width: 55px;
+        height: 55px;
+    }
+    .bannerHeadline h1{
+        font-size: 65px;     
+       
+    }
+    .bannerHeadline h2{
+        font-size: 17px;  
+    }
+    nav a{
+        padding: 12px;        
+    }
+    
+    .login{
+        height: 150px;
+        padding-top: 10px;             
+    }
+    .footerBody{
+        font-size: 10px;
+    }
+}
+
+@media(max-width:661px){
+    header .container{
+        justify-content: space-between;
+    }
+    img{
+        width: 150px;
+    }
+    .menu a{
+        font-size: 13px;
+    }
+    .bannerHeadline h1{
+        font-size: 60px;
+    }
+    .bannerHeadline h2{
+        font-size: 15px;
+    }
+  
+    .footerBody{
+        display: flex;
+        padding-right: 0px;
+        font-size: 10px;
+    }
+    .bannerOptions{
+        height: auto;
+        flex-direction: column;
+    }
+    .bannerTittle{
+        font-size: 15px;
+    }
+    .bannerDescription{
+        font-size: 11px;
+    }
+    .banner1 a{
+        font-size: 11px;
+        padding:1px;
+    }
+    .banner2 a{
+        font-size: 11px;
+        padding:1px;
+    }
+    .banner3 a{
+        font-size: 11px;
+        padding:1px;
+    }
+    .container{
+        flex-direction: column;
+    }
+    #geral section,
+    aside{
+        margin: 20px;
+    }
+    .newsThumbnail img{
+        min-width: 180px;
+    }
+    article .newsTitle{
+        margin-top: 13px;
+        margin-bottom: 13px;
+        font-size: 20px;
+    }
+    
+    article .newsResume{
+        font-size: 11px;
+        line-height: 15px;
+        margin-bottom: 13px;  
+    
+    }
+    article .newsAddData{      
+        font-size: 10px;       
+    }
+    
+    article .newsComments{
+        font-size: 10px;
+        padding: 10px;
+    }
+    
+    .Categorias{
+        padding: 0px;
+        margin: 0px;
+    }
+    header .container{
+        flex-direction: row;
+    }
+    nav ul {
+        flex-direction: column;
+    }
+    header{
+        height: auto;
+    }
+    nav ul {
+        display: none;
+    }
+    .menuMobile{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+}
+
+    @media(max-width:480px){
+        .menu a{
+            font-size: 11px;
+        }
+        img{
+            width: 130px;
+        }
+        .bannerHeadline h1{
+            font-size: 48px;                      
+        }
+        .bannerHeadline h2{
+            font-size: 12px;
+            margin-top: 20px;
+        }
+        .bannerTittle{
+            font-size: 12px;
+        }
+        .bannerDescription{
+            font-size: 10px;
+        }
+        .banner1 a{
+            font-size: 10px;
+            padding:1px;
+        }
+        .banner2 a{
+            font-size: 10px;
+            padding:1px;
+        }
+        .banner3 a{
+            font-size: 10px;
+            padding:1px;
+        }
+        .Categorias li{
+            padding:10px;
+        }
+        .animais{
+            width: 45px;
+            height: 45px;
+            padding:10px
+        }
+            
+        form input{
+            max-width: 100px;
+        }
+        .login{
+            padding-top:0px;
+        }
+         
+        .usuario {
+            padding-top: 10px;
+            font-size: 13px;
+        }
+        .senha{
+            font-size: 13px;
+        }
+        article .newsTitle{
+            margin-top: 10px;
+            margin-bottom: 10px;
+            font-size: 13px;
+        }
+        article .newsResume{
+            font-size: 10px;
+        }
+        .widgetTittleText{
+          font-size: 18px;          
+        }
+       
+        .footerTitle{
+            font-size: 11px;
+        }      
+        
+    }
+    @media(max-width:396px){
+        .menu a{
+            font-size: 9px;
+            padding: 8px;
+        }
+        img{
+            width: 110px;
+        }
+        .bannerHeadline h1{
+            font-size: 48px;                      
+        }
+        .bannerHeadline h2{
+            font-size: 10px;
+        }
+        .widgetTittle{
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        .widgetTittleText{
+          font-size: 16px; 
+          margin-bottom: 10px;         
+        }
+        article .newsTitle{
+            margin-top: 8px;
+            margin-bottom: 8px;
+        }
+        article .newsAddData{
+            font-size: 10px;
+            padding: 8px;
+        }
+        
+        article .newsComments{
+            font-size: 10px;
+            padding: 8px;
+        } 
+        article .newsResume{
+            font-size: 8px;
+        } 
+        article .newsThumbnail{
+            margin-top:20px;
+            
+        }
+        .Categorias li{
+            padding:8px;
+        }       
+        
+        form input{
+            max-width: 90px;
+            max-height: 17px;
+        }
+                 
+        .usuario {
+            padding-top: 5px;
+            margin-bottom: 10px;
+            font-size: 10px;
+        }
+        .senha{
+            font-size: 10px;
+            margin-bottom: 8px;
+        }       
+        .footerTitle{
+            font-size: 11px;
+        }
+    }       
+
+    @media(max-width:370px){
+       
+        .bannerHeadline h1{
+            font-size: 45px;                      
+        }
+        .Categorias li{
+            padding:6px;
+        }
+        .widgetTittleText{
+          font-size: 14px;         
+        }
+       
+        article .newsAddData{
+            font-size: 9px;
+            padding: 12px;
+        }
+        
+        article .newsComments{
+            font-size: 9px;
+            padding: 12px;
+        } 
+        article .newsResume{
+            font-size: 8px;
+        } 
+        article .newsThumbnail{
+            margin-top:15px;      
+        }       
+        
+        form input{
+            max-width: 78px;
+            max-height: 17px;
+        }    
+        .footerTitle{
+            font-size: 11px;
+            padding-top: 15px;
+        }
+    }
+          
+    @media(max-width:361px){
+        .bannerHeadline h1{
+            font-size: 42px;                      
+        }
+        .Categorias li{
+            padding:6px;
+        }
+        .widgetTittle{
+            padding-right: 0px;
+            margin:6px 0px;
+        }
+        .widgetTittleText{
+          font-size: 12px;
+          margin-bottom: 5px;         
+        }
+        article .newsTitle{
+            font-size: 10px;
+        }
+        article .newsAddData{
+            font-size: 8px;
+        }        
+        article .newsComments{
+            font-size: 9px;
+            padding: 12px;
+        } 
+        article .newsResume{
+            font-size: 8px;
+        } 
+        article .newsThumbnail{
+            margin-top:10px;      
+        }       
+        
+        form input{
+            max-width: 70px;
+            max-height: 17px;
+        }    
+    }
+ 
+    
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
